@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            font-family: arial;
+        }
+
+        .container {
+            border-width: 1px;
+            border-style: solid;
+            border-color: rgb(200, 200, 200);
+            width: 300px;
+            border-radius: 6px;
+        }
+
+        .flexbox {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 6px;
+            padding-bottom: 6px;
+            padding-left: 12px;
+            padding-right: 12px;
+        }
+
+        .notification {
+            background-color: rgb(49, 109, 245);
+            color: white;
+            padding-top: 3px;
+            padding-bottom: 3px;
+            padding-left: 10px;
+            padding-right: 10px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .all-file {
+            background-color:rgb(168, 103, 103);
+            width: 500px;
+        }
+
+        .picture {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin: 20px;
+        }
+
+        .catpicture {
+            width: 50px;
+            height: 50px;
+            object-fit: cover;
+            border-radius: 25px;
+            margin-right: 15px;
+        }
+
+        .info {
+            width: 200px;
+        }
+
+        .oliver {
+            font-family: arial;
+            font-weight: bold;
+            margin-bottom: 3px;
+        }
+
+        .sleepy {
+            font-family: arial;
+            color: rgb(150, 150, 150);
+        }
+
+        .follow {
+            margin-left: 20px;
+            background-color: rgb(29, 155, 240);;
+            color: white;
+            height: 40px;
+            font-size: 16px;
+            font-weight: bold;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 15px;
+            padding-right: 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .last {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            width: 500px;
+            background-color: rgb(141, 23, 141);
+            font-family: arial;
+            color: white;
+        }
+
+        .comer {
+            font-weight: bold;
+            padding-left: 10px;
+        }
+
+        .textbox {
+            border-radius: 8px;
+            width: 200px;
+            font-weight: bold;
+        }
+
+        .download {
+           background-color:  rgb(141, 23, 141);
+            color: white;
+            padding-left: 10px;
+            padding-right: 10px;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body style="padding: 100px">
+    <p>12E</p>
+    <div class="container">
+        <div  class="flexbox">
+            <div>Home</div>
+            <div class="notification">14</div>
+        </div>
+        <div  class="flexbox">
+            <div>Notification</div>
+            <div class="notification">3</div>
+        </div>
+        <div  class="flexbox">
+            <div>Message</div>
+            <div class="notification">5</div>
+        </div>
+    </div>
+    <br>
+    <p>12G</p>
+    <div class="all-file">
+        <div class="picture">
+            <img class="catpicture" src="cat.jpg" alt="cat image">
+           <div class="info">
+            <p class="oliver">Oliver</p>
+            <p class="sleepy">the cat</p>
+            <p class="sleepy">popular</p>
+           </div>
+            <button class="follow">Follow</button>
+        </div>
+        <div class="picture">
+            <img  class="catpicture" src="catb.jpg" alt="cat image">
+           <div class="info">
+            <p class="oliver">Mimi</p>
+            <p class="sleepy">Sleepy cat</p>
+            <p class="sleepy">popular</p>
+           </div>
+            <button class="follow">Follow</button>
+        </div>
+        <div class="picture">
+            <img  class="catpicture" src="catc.jpg" alt="cat image">
+            <div class="info">
+            <p class="oliver">Rex</p>
+            <p class="sleepy">Happy cat</p>
+            <p class="sleepy">popular</p>
+            </div>
+            <button class="follow">Follow</button>
+        </div>
+    </div>
+    <br>
+    <p>12F</p>
+    <div class="last">
+        <p class="comer">Home</p>
+        <input class="textbox" placeholder="search">
+        <button class="download">Download</button>
+    </div>
+    <br>
+    <a href="index.html">exercise 10</a>
+    <a href="exercise11z.html">exercise 11z</a>
+    <a href="exercise11.html">exercise 11</a>
+    <a href="exercise12.html">exercise 12</a>
+</body>
+</html>
